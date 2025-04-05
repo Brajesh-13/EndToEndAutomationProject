@@ -23,8 +23,9 @@ public class HeaderOptions {
 		myAccountDropMenu.click();
 	}
 	
-	public void clickOnRegisterButton() {
+	public RegisterPage clickOnRegisterButton() {
 		registerbutton.click();
+		return new RegisterPage(driver);
 	}
 
 }

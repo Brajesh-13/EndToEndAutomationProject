@@ -5,8 +5,8 @@
     <classes>
       <class name="register.Register">
         <methods>
-          <include name="verfiyRegisterAccountUsingLaedingAndTrailingSpaces"/>
           <include name="setup"/>
+          <include name="VerifyRegisteringAccountUsingMandatoryFields"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- register.Register -->
